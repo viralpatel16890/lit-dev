@@ -22,6 +22,24 @@ const PROJECTS: Project[] = [
     tags: ['API', 'CSS Grid'],
     link: 'https://github.com',
   },
+  {
+    title: 'Habit Tracker',
+    description: 'A streak-based habit tracker with charts and daily reminders.',
+    tags: ['Charts', 'LocalStorage'],
+    link: 'https://github.com',
+  },
+  {
+    title: 'Snippet Box',
+    description: 'A code snippet manager with syntax highlighting and tag search.',
+    tags: ['Lit', 'Syntax Highlighting'],
+    link: 'https://github.com',
+  },
+  {
+    title: 'Budget Buddy',
+    description: 'A personal budgeting app with monthly spending breakdowns.',
+    tags: ['Charts', 'Forms'],
+    link: 'https://github.com',
+  },
 ]
 
 @customElement('portfolio-app')
